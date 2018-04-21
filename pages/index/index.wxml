@@ -1,0 +1,13 @@
+<!--index.wxml-->
+<view>
+  <button bindtap="signIn">签到</button>
+  <button bindtap="signOut">签退</button>
+  <button bindtap="refresh">刷新</button>
+  <scroll-view scroll-x>
+    <block wx:for="{{records}}" wx:for-item="record">
+      <view>姓名: {{record.name}}</view>
+      <view>签到时间: {{record.signInTime}}</view>
+      <view>签退时间: {{record.signOutTime}}</view>
+    </block>
+  </scroll-view>
+</view>

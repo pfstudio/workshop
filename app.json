@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/index/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3a73f6",
+    "navigationBarTitleText": "攀峰签到",
+    "navigationBarTextStyle":"white"
+  }
+}
