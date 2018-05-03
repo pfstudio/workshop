@@ -15,6 +15,8 @@ namespace workshop
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
+            // 添加MVC服务
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -24,11 +26,9 @@ namespace workshop
             {
                 app.UseDeveloperExceptionPage();
             }
-
-            app.Run(async (context) =>
-            {
-                await context.Response.WriteAsync("Hello World!");
-            });
+            
+            // 使用MVC中间件，并启用默认路由
+            app.UseMvcWithDefaultRoute();
         }
     }
 }
