@@ -21,5 +21,15 @@
 
 1. .Net Core 2.0 [下载页面](https://www.microsoft.com/net/learn/get-started/windows)
 2. 支持C#代码高亮的编辑器
-> 推荐使用[VS Code](https://code.visualstudio.com/)
-> 并安装好[c#插件](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
+    > 推荐使用[VS Code](https://code.visualstudio.com/)
+    > 并安装好[c#插件](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
+3. (可选)PostMan [下载页面](https://www.getpostman.com/)
+
+请事先了解以下概念：
+
+1. [依赖注入](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/controllers/dependency-injection)(DI)
+2. [模型绑定](https://docs.microsoft.com/zh-cn/aspnet/core/mvc/models/model-binding)(Model Binding)
+3. [中间件](https://docs.microsoft.com/zh-cn/aspnet/core/fundamentals/middleware/)(Middleware)
+
+可参考[博客](https://yiluomyt.gitbooks.io/blog/AspnetCore/%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84CRUD.html)
+> 若无代理可以看Github上的[原文件](https://github.com/yiluomyt/Blog/blob/master/AspnetCore/%E6%9C%80%E7%AE%80%E5%8D%95%E7%9A%84CRUD.md)
